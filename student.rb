@@ -1,3 +1,4 @@
+require "./person.rb"
 class Student < Person
     attr_accessor :classroom
   
