@@ -74,7 +74,7 @@ Clone this repository to your desired folder:
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Osman Wako**
 
