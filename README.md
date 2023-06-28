@@ -6,11 +6,6 @@
   <h3><b>School Library</b></h3>
 </div>
 
-<div align="center">
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -47,17 +42,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[#]**
-- **[#]**
-- **[#]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- N/A
+- **[# Person class]**
+- **[# Student class]**
+- **[# Teacher class]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,8 +95,10 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[]**
-- **[]**
+- **[Setup Associations]**
+- **[Add basic UI]**
+- **[Preserve Data]**
+- **[Unit Test]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
