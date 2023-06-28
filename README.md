@@ -69,14 +69,6 @@ Clone this repository to your desired folder:
   cd my-folder
   git clone https://github.com/osmanwako/schoolibrary.git
 ```
-
-````
-### Run tests
-To run tests, run the following command:
-```sh
-  rspec mylist_test.rb
-````
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
