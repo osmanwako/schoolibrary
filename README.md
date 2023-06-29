@@ -45,6 +45,8 @@
 - **[# Person class]**
 - **[# Student class]**
 - **[# Teacher class]**
+- **[# Book class]**
+- **[# Rental class]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,7 +90,6 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[Setup Associations]**
 - **[Add basic UI]**
 - **[Preserve Data]**
 - **[Unit Test]**
