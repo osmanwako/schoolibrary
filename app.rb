@@ -24,10 +24,8 @@ class App
   def addrental(rental)
     @rentals << rental
   end
-  
+
   def getrentals
     @rentals
   end
-
-  
 end
