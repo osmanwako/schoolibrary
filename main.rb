@@ -107,7 +107,7 @@ def createrental
   person = selectperson
   return unless person && book
 
-  puts "\n Date: "
+  print "\n Date: "
   date = gets.chomp
   rental = Rental.new(date, book, person)
   APP.addrental(rental)
