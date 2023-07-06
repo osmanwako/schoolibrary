@@ -84,6 +84,12 @@ Clone this repository to your desired folder:
 - Twitter: [@osmanWakow](https://twitter.com/osmanwakow)
 - LinkedIn :[@osmanWako](https://www.linkedin.com/in/osmanwako/)
 
+👤 **Massa**
+
+- GitHub: [@osmanwako](https://github.com/osmanwako)
+- Twitter: [@osmanWakow](https://twitter.com/osmanwakow)
+- LinkedIn :[@osmanWako](https://www.linkedin.com/in/osmanwako/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
