@@ -11,8 +11,8 @@ def createstudent
   name = gets.chomp.capitalize
   print "\Has parent Permission? [Y/N]:\t"
   val = gets.chomp.downcase
-  parent_permission = getpermission(val)
-  student = Student.new(1, age, name, parent_permission)
+  permission = getpermission(val)
+  student = Student.new(1, age, name, permission)
   APP.addperson(student)
 end
 

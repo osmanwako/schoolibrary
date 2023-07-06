@@ -1,3 +1,4 @@
+require 'json'
 require_relative 'app'
 require_relative 'student'
 require_relative 'teacher'
@@ -11,10 +12,11 @@ require_relative 'createrental'
 require_relative 'listpeople'
 require_relative 'listbook'
 require_relative 'listrental'
-
-
+require_relative 'preservedata'
+require_relative 'loadata'
 
 APP = App.new
+loaddata
 def mainselect(num)
   case num
   when '1' then listbooks
@@ -39,6 +41,7 @@ def main(message)
     puts '6 - List all rentals for a given person id'
     puts '7 - Exit'
     order = gets.chomp
+    preservedata if order == '7'
     break if order == '7'
 
     mainselect(order)
