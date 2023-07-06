@@ -1,7 +1,7 @@
 def savebooks(books)
-  file = File.new("./data/books.json", "w")
+  file = File.new('./data/books.json', 'w')
 rescue Errno::ENOENT
-  p "File not found"
+  p 'File not found'
 else
   lists = []
   books.each_with_index do |book, i|
@@ -13,9 +13,9 @@ else
 end
 
 def savepersons(persons)
-  file = File.new("./data/people.json", "w")
+  file = File.new('./data/people.json', 'w')
 rescue Errno::ENOENT
-  p "File not found"
+  p 'File not found'
 else
   lists = []
   persons.each do |person|
@@ -23,7 +23,7 @@ else
              name: person.name,
              age: person.age,
              permission: person.permission || false,
-             specialization: person.specialization || "",
+             specialization: person.specialization || '',
              class: person.class }.to_json
     lists.push(list)
   end
@@ -32,9 +32,9 @@ else
 end
 
 def saverentals(rentals)
-  file = File.new("./data/rentals.json", "w")
+  file = File.new('./data/rentals.json', 'w')
 rescue Errno::ENOENT
-  p "File not found"
+  p 'File not found'
 else
   lists = []
   rentals.each do |rental|
