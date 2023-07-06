@@ -84,11 +84,12 @@ Clone this repository to your desired folder:
 - Twitter: [@osmanWakow](https://twitter.com/osmanwakow)
 - LinkedIn :[@osmanWako](https://www.linkedin.com/in/osmanwako/)
 
-👤 **Massa**
+👤 **Massa zoumanigui**
 
-- GitHub: [@osmanwako](https://github.com/osmanwako)
-- Twitter: [@osmanWakow](https://twitter.com/osmanwakow)
-- LinkedIn :[@osmanWako](https://www.linkedin.com/in/osmanwako/)
+- GitHub: [@massazoum](https://github.com/massazoum)
+- Twitter: [@zoumaniguimass1](https://twitter.com/zoumaniguimass1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/zoumtechmassa/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
