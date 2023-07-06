@@ -9,4 +9,3 @@ def createrental
   APP.addrental(rental)
   puts 'Rental created successfully!'
 end
-

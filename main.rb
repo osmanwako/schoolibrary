@@ -5,10 +5,13 @@ require_relative 'rental'
 require_relative 'book'
 require_relative 'createpeople'
 require_relative 'createbook'
+require_relative 'selectbook'
+require_relative 'selectperson'
 require_relative 'createrental'
 require_relative 'listpeople'
 require_relative 'listbook'
 require_relative 'listrental'
+
 
 
 APP = App.new
