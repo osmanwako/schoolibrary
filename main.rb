@@ -12,8 +12,6 @@ require_relative 'listpeople'
 require_relative 'listbook'
 require_relative 'listrental'
 
-
-
 APP = App.new
 def mainselect(num)
   case num
