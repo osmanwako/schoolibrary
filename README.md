@@ -51,6 +51,11 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Not deployed yet...]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -60,16 +65,23 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- Ruby
-- VS code editor
+- [Ruby](https://www.ruby-lang.org/en/) installed and running.
+- You should be able to use [IRB](https://en.wikipedia.org/wiki/Ruby_(programming_language)#Features).
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-```sh
-  cd my-folder
-  git clone https://github.com/osmanwako/schoolibrary.git
+```
+git clone https://github.com/osmanwako/schoolibrary.git
+```
+
+### Install
+
+Install this project with:
+
+```
+gem install rspec
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
