@@ -1,8 +1,3 @@
-require_relative 'student'
-require_relative 'teacher'
-require_relative 'rental'
-require_relative 'book'
-
 class App
   def initialize
     @books = []

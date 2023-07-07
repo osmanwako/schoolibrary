@@ -1,6 +1,3 @@
-require_relative 'selectperson'
-require_relative 'selectbook'
-
 def createrental
   book = selectbook
   person = selectperson
