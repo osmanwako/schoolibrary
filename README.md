@@ -78,7 +78,7 @@ Install this project with:
 ```
  cd schoolibrary
 
-  gem instal rspec
+  gem install rspec
 ```
 ### Usage
 
