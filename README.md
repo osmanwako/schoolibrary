@@ -76,9 +76,9 @@ git clone https://github.com/osmanwako/schoolibrary.git
 Install this project with:
 
 ```
- cd oop-school-library.git
+ cd schoolibrary
 
-  bundle instal
+  gem instal rspec
 ```
 ### Usage
 
@@ -90,7 +90,7 @@ ruby main.rb
 
 To run tests, run the following command:
 ```
-bundle exec rspec
+rspec spec main_test.rb
 ```
 
 ## 🚀 Live Demo <a name="live-demo"></a>
