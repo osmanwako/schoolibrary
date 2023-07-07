@@ -1,5 +1,5 @@
-require_relative "selectperson"
-require_relative "selectbook"
+require_relative 'selectperson'
+require_relative 'selectbook'
 
 def createrental
   book = selectbook
@@ -10,5 +10,5 @@ def createrental
   date = gets.chomp
   rental = Rental.new(date, book, person)
   APP.addrental(rental)
-  puts "Rental created successfully!"
+  puts 'Rental created successfully!'
 end
