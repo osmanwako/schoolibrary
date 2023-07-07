@@ -30,7 +30,7 @@ end
 def createperson
   valid = true
   loop do
-    print "\n Do you want to create student (1) or teacher (2)? [input the number]:\t"
+    print "\nDo you want to create student (1) or teacher (2)? [input the number]:\t"
     order = gets.chomp
     valid = true
     if order == '1'
