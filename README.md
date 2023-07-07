@@ -51,11 +51,6 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Not deployed yet...]()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -81,12 +76,29 @@ git clone https://github.com/osmanwako/schoolibrary.git
 Install this project with:
 
 ```
-gem install rspec
+ cd oop-school-library.git
+
+  bundle instal
+```
+### Usage
+
+To run the project, execute the following command:
+```
+ruby main.rb
+```
+### Run test 
+
+To run tests, run the following command:
+```
+bundle exec rspec
 ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- AUTHORS -->
+- [You can deploy this project using: Heroku]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Author <a name="authors"></a>
 
