@@ -47,6 +47,7 @@
 - **[# Teacher class]**
 - **[# Book class]**
 - **[# Rental class]**
+- **[# Unit Test]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,21 +61,49 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- Ruby
-- VS code editor
+- [Ruby](https://www.ruby-lang.org/en/) installed and running.
+- You should be able to use [IRB](<https://en.wikipedia.org/wiki/Ruby_(programming_language)#Features>).
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-```sh
-  cd my-folder
-  git clone https://github.com/osmanwako/schoolibrary.git
+```
+git clone https://github.com/osmanwako/schoolibrary.git
 ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Install
 
-<!-- AUTHORS -->
+Install this project with:
+
+```
+ cd schoolibrary
+
+  gem install rspec
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```
+ruby main.rb
+```
+
+### Run test
+
+To run tests, run the following command:
+
+```
+rspec spec
+```
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [You can deploy this project using: Heroku]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Author <a name="authors"></a>
 
@@ -90,15 +119,13 @@ Clone this repository to your desired folder:
 - Twitter: [@zoumaniguimass1](https://twitter.com/zoumaniguimass1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/zoumtechmassa/)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[Preserve Data]**
-- **[Unit Test]**
+- **[Create Database]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

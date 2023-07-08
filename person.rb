@@ -24,7 +24,7 @@ class Person < Nameable
 
   # accessor methods
   def can_use_services?
-    of_age? || @parent_permission
+    of_age? || @permission
   end
 
   def of_age?
