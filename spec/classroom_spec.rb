@@ -1,11 +1,11 @@
 class TestClassroom < Test::Unit::TestCase
   def setup
-    @classroom = Classroom.new("Math")
-    @student = Student.new("Math", 15, "John", 1)
+    @classroom = Classroom.new('Math')
+    @student = Student.new('Math', 15, 'John', 1)
   end
 
   def test_label
-    assert_equal("Math", @classroom.label)
+    assert_equal('Math', @classroom.label)
   end
 
   def test_students

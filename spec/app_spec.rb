@@ -4,8 +4,8 @@ require_relative "../app"
 class TestApp < Test::Unit::TestCase
   def setup
     @app = App.new
-    @book = Book.new("The Alchemist", "Paulo Coelho")
-    @person = Person.new(30, "John", 1)
+    @book = Book.new("Ellily Cave", "Osman Wako")
+    @person = Person.new(30, "Osman", 1)
     @rental = Rental.new("2022-07-06", @book, @person)
   end
 

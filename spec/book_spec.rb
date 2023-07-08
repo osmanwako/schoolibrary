@@ -1,5 +1,5 @@
-require "test/unit"
-require_relative "../book"
+require 'test/unit'
+require_relative '../book'
 
 class TestBook < Test::Unit::TestCase
   def setup
