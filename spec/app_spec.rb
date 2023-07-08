@@ -1,9 +1,12 @@
+require "test/unit"
+require_relative "../app"
+
 class TestApp < Test::Unit::TestCase
   def setup
     @app = App.new
-    @book = Book.new('The Alchemist', 'Paulo Coelho')
-    @person = Person.new(30, 'John', 1)
-    @rental = Rental.new('2022-07-06', @book, @person)
+    @book = Book.new("The Alchemist", "Paulo Coelho")
+    @person = Person.new(30, "John", 1)
+    @rental = Rental.new("2022-07-06", @book, @person)
   end
 
   def test_addperson

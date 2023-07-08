@@ -61,7 +61,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 - [Ruby](https://www.ruby-lang.org/en/) installed and running.
-- You should be able to use [IRB](https://en.wikipedia.org/wiki/Ruby_(programming_language)#Features).
+- You should be able to use [IRB](<https://en.wikipedia.org/wiki/Ruby_(programming_language)#Features>).
 
 ### Setup
 
@@ -80,17 +80,21 @@ Install this project with:
 
   gem install rspec
 ```
+
 ### Usage
 
 To run the project, execute the following command:
+
 ```
 ruby main.rb
 ```
-### Run test 
+
+### Run test
 
 To run tests, run the following command:
+
 ```
-rspec spec main_test.rb
+rspec spec
 ```
 
 ## 🚀 Live Demo <a name="live-demo"></a>

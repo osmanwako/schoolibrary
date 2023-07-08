@@ -1,3 +1,6 @@
+require "test/unit"
+require_relative "../book"
+
 class TestBook < Test::Unit::TestCase
   def setup
     @book = Book.new('Ellily Cave', 'Osman Wako')
