@@ -1,13 +1,17 @@
-class TestTeacher < Test::Unit::TestCase
-  def setup
+require_relative '../teacher'
+
+describe 'Test Teacher class' do
+  before(:context) do
     @teacher = Teacher.new('Ruby', 30, 'Massa', permission: true)
   end
 
-  def test_specialization
-    assert_equal('Ruby', @teacher.specialization)
-  end
+  context 'Testing Teacher class methods' do
+    it 'test specialization accessor' do
+      expect(@teacher.specialization).to eq('Ruby')
+    end
 
-  def test_can_use_services?
-    assert_true(@teacher.can_use_services?)
+    it 'Test can_use_services' do
+      expect(@teacher.can_use_services?).to be true
+    end
   end
 end

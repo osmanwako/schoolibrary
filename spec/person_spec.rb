@@ -1,19 +1,25 @@
-class TestPerson < Test::Unit::TestCase
-  def setup
+require_relative '../book'
+require_relative '../person'
+require_relative '../rental'
+
+describe 'Test Person' do
+  before(:context) do
     @person = Person.new(30, 'Osman', 1)
   end
 
-  def test_correct_name
-    assert_equal('Osman', @person.correct_name)
-  end
+  context 'Testing Person class methods' do
+    it 'test_correct_name' do
+      expect(@person.correct_name).to eq('Osman')
+    end
 
-  def test_add_rental
-    book = Book.new('Elilly Cave', 'Osman Wako')
-    rental = @person.add_rental(book, '2023-07-07')
-    assert_instance_of(Rental, rental)
-  end
+    it 'Test add_rental method' do
+      book = Book.new('Elilly Cave', 'Osman Wako')
+      rental = @person.add_rental(book, '2023-07-07')
+      expect(@person.rentals[0]).to eq(rental)
+    end
 
-  def test_can_use_services?
-    assert_true(@person.can_use_services?)
+    it 'test can_use_services method' do
+      expect(@person.can_use_services?).to be true
+    end
   end
 end

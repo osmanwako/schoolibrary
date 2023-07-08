@@ -47,6 +47,7 @@
 - **[# Teacher class]**
 - **[# Book class]**
 - **[# Rental class]**
+- **[# Unit Test]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +126,6 @@ rspec spec
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **[Create Database]**
-- **[TDD Test]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

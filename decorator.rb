@@ -1,5 +1,4 @@
 require_relative 'nameable'
-require_relative 'person'
 
 class Decorator < Nameable
   attr_accessor :nameable

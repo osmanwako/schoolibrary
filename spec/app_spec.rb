@@ -1,38 +1,36 @@
-require 'test/unit'
 require_relative '../app'
 
-class TestApp < Test::Unit::TestCase
-  def setup
+describe 'Test App class' do
+  before(:context) do
     @app = App.new
     @book = Book.new('Ellily Cave', 'Osman Wako')
     @person = Person.new(30, 'Osman', 1)
     @rental = Rental.new('2022-07-06', @book, @person)
   end
 
-  def test_addperson
-    @app.addperson(@person)
-    assert_equal([@person], @app.getpersons)
-  end
+  context 'Testing App class methods' do
+    it 'test addperson method' do
+      expect(@app.addperson(@person)).to include(@person)
+    end
 
-  def test_getpersons
-    assert_equal([], @app.getpersons)
-  end
+    it 'test getpersons method' do
+      expect(@app.getpersons).to eq([@person])
+    end
 
-  def test_addbook
-    @app.addbook(@book)
-    assert_equal([@book], @app.getbooks)
-  end
+    it 'test getbooks method' do
+      expect(@app.getbooks).to eq([])
+    end
 
-  def test_getbooks
-    assert_equal([], @app.getbooks)
-  end
+    it 'test addbook method ' do
+      expect(@app.addbook(@book)).to include(@book)
+    end
 
-  def test_addrental
-    @app.addrental(@rental)
-    assert_equal([@rental], @app.getrentals)
-  end
+    it 'test addrental method' do
+      expect(@app.addrental(@rental)).to include(@rental)
+    end
 
-  def test_getrentals
-    assert_equal([], @app.getrentals)
+    it 'test getrentals method' do
+      expect(@app.getrentals).to eq([@rental])
+    end
   end
 end

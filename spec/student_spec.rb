@@ -1,13 +1,17 @@
-class TestStudent < Test::Unit::TestCase
-  def setup
+require_relative '../student'
+
+describe 'Test Student' do
+  before(:context) do
     @student = Student.new('Ruby', 15, 'Osman', 1)
   end
 
-  def test_classroom
-    assert_equal('Ruby', @student.classroom)
-  end
+  context 'Testing student class methods' do
+    it 'Test classroom' do
+      expect(@student.classroom).to eq('Ruby')
+    end
 
-  def test_play_hooky
-    assert_equal('¯\\_(ツ)_/¯', @student.play_hooky)
+    it 'Test play_hooky' do
+      expect(@student.play_hooky).to eq('¯\\_(ツ)_/¯')
+    end
   end
 end
